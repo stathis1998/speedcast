@@ -62,7 +62,7 @@ export const Modal: FC<ModalProps> = (props) => {
               leaveFrom="opacity-100 scale-100"
               leaveTo="opacity-0 scale-95"
             >
-              <Dialog.Panel className="w-full max-w-4xl m-4 transform overflow-hidden bg-white text-left align-middle shadow-xl transition-all">
+              <Dialog.Panel className="w-full max-w-4xl m-4 transform overflow-hidden bg-white text-left align-middle shadow-xl transition-all border-b-2 border-cyan">
                 <div className="bg-lightGray p-6 relative">
                   <Dialog.Title
                     as="h3"
